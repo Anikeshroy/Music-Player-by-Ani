@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    color: #eee;
+}
+
+body {
+   background: #673636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    height: 430px;
+    width: 320px;
+    box-shadow: 0 0 4px rgb(176, 166, 161);
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    background: #816d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.backbtn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+.backbtn i {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: orangered;
+    background: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+img {
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle_image {
+    height: 150px;
+    width: 150px;
+    background: #1f1a1a;
+    box-shadow: 0 0 4px orangered;
+    border: 10px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container h2 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.container p {
+    font-size: 11px;
+}
+
+.container .length {
+    width: 100%;
+    height: 5px;
+    -webkit-appearance-: none;
+    border-radius: 50px;
+    background: #eee;
+    margin-top: 20px;
+}
+.container audio{
+    display: none;
+}
+
+.length::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: orangered;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+
+.controller {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+}
+
+.controller i {
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    background: #eee;
+    color: orangered;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.controller i.play {
+    background: orangered;
+    color: #eee;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 5px orangered;
+}
