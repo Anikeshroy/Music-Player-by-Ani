@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="MusicPlayer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container"> 
+        <div class="backbtn">
+            <i class='bx bx-chevron-left'></i>
+            <i class='bx bx-dots-vertical-rounded'></i>
+        </div>
+        <div class="circle_image">
+            <img src="MC.jpg" alt="">
+        </div>
+        <h2>Ram Ram</h2>
+        <p>MC Square</p>
+       <audio controls class="music">
+        <source src="Ram-Ram.mp3" type="audio/mpeg">
+       </audio>
+        <input type="range" name="" id="" value="0" class="length">
+        <!-- name="" id="" -->
+        <div class="controller">
+            <i class='bx bx-skip-previous'></i>
+            <i class='bx bx-play play'></i>
+            <i class='bx bx-skip-next'></i>
+        </div>
+    </div>
+    <script src="Music__player.js""></script>
+</body>
+
+</html>
